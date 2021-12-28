@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import Button from './components/button'
-import Input from './components/input'
 import Card from './components/card'
+import Navbar from './components/navbar'
 
 const list = [
   {
@@ -44,6 +43,7 @@ function App() {
   return (
     <div className='h-full w-full bg-slate-200'>
       <main className='w-full h-screen xl:w-[1000px] mx-auto bg-slate-100 shadow-lg shadow-slate-200'>
+        <Navbar />
         <section className='p-4 grid grid-cols-4 gap-2'>
           {list.map(o => (
             <Card>

@@ -1,11 +1,9 @@
 function Card(props) {
-
   return (
     <div
       {...props}
       className="
-        p-4 rounded-lg
-        bg-white
+        p-4 rounded-lg bg-white
         shadow-md shadow-slate-200 hover:shadow-slate-300/80
         transition-all ease-in duration-100
       "
